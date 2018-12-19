@@ -1,0 +1,14 @@
+1. primero separar el texto por palabras
+2. verificar si la palabra es terminal
+2. verificar si existen terminales en medio (encuentra el primero que tenga de izquierda a derecha)
+	2.1. identificar que terminal tiene en medio
+	2.2. separar en tres palabras distintas (palabraIzquierda terminal palabraDerecha)
+	2.3. aplicar este algoritmo para la palabra izquierda
+	2.4. mostrar el terminal
+	2.5. aplicar este algoritmo para la palabra derecha
+3. verificar si es numero
+	3.1 mostrar el numero
+4. verificar si parte con numero
+	4.1. mostrar la parte que es numero
+	4.1. aplicar algoritmo para la parte que no es numero 
+5. si no se cumple nada de lo anterior, se asume que la palabra es identificador (aquí pondría lo de if, odd while y esas cosas)
